@@ -103,18 +103,7 @@ ufw allow 3002
 ufw allow 3003
 ```
 
-into a folder on the server
-
-The general pattern for these things is this…
-they reference a PORT environment variable that will need to be set to the correct values of the open ports
-
-they have an `npm start` command which can be run from the root of each folder which boots the service
-
-some of them also expect other environment variables to be set, which I will help with
-
-some are already documented in the repos, some aren’t, so it will be a chance for me to improve the documentation as well.
-
-> With Digital Ocean:
+> How To Set up a firewall with `ufw` With Digital Ocean:
 > https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04
 
 
