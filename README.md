@@ -45,16 +45,12 @@ cd ..
 cd noflo-rapid-sensemaking-server
 npm install
 
-# TODO this script should be added to the repo
-# new script
-touch start
-# make script executable
-chmod a+x start
-# modify env variables in `start`
+
+# modify env variables in script file `start`
 nano start, or vi start
+# PORT = 3001
 # add to process manager
 # startscript will run `start`
-# PORT = 3001
 # set up TLS
 # https://github.com/noflo/noflo-nodejs#securing-the-runtime-connection
 pm2 start --name noflo-server npm -- run startscript
